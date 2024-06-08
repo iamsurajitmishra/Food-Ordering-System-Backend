@@ -22,7 +22,56 @@
 
     <modules>
         <module>order-service</module>
+        <module>common</module>
     </modules>
 
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.food</groupId>
+                <artifactId>order-domain-core</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.food</groupId>
+                <artifactId>order-application-service</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.food</groupId>
+                <artifactId>order-application</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.food</groupId>
+                <artifactId>common</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.food</groupId>
+                <artifactId>order-messaging</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.food</groupId>
+                <artifactId>order-data-access</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.food</groupId>
+                <artifactId>order-container</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+            </dependency>
+
+
+
+        </dependencies>
+    </dependencyManagement>
 
 </project>
