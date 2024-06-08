@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+            <groupId>com.food</groupId>
+            <artifactId>order-service</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+    </parent>
+    <artifactId>order-domain</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>order-domain</name>
+    <description>order-domain</description>
+    <packaging>pom</packaging>
+    <properties>
+        <java.version>17</java.version>
+    </properties>
+
+    <modules>
+        <module>order-domain-core</module>
+        <module>order-application-service</module>
+    </modules>
+
+</project>
