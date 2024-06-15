@@ -21,4 +21,10 @@
         <module>order-application-service</module>
     </modules>
 
+<dependencyManagement>
+    <dependencies>
+
+    </dependencies>
+</dependencyManagement>
+
 </project>

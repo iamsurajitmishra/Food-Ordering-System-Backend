@@ -1,10 +1,10 @@
 package com.food.orderdomaincore.entity;
 
-import com.food.commondomain.entity.AggregateRoot;
-import com.food.commondomain.valueobject.CustomerId;
-import com.food.commondomain.valueobject.Money;
-import com.food.commondomain.valueobject.OrderId;
-import com.food.commondomain.valueobject.OrderStatus;
+import com.food.common.domain.entity.AggregateRoot;
+import com.food.common.domain.valueobject.CustomerId;
+import com.food.common.domain.valueobject.Money;
+import com.food.common.domain.valueobject.OrderId;
+import com.food.common.domain.valueobject.OrderStatus;
 import com.food.orderdomaincore.valueObject.StreetAddress;
 import com.food.orderdomaincore.valueObject.TrackingId;
 import lombok.Getter;

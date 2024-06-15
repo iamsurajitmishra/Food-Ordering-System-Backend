@@ -1,8 +1,8 @@
 package com.food.orderdomaincore.entity;
 
-import com.food.commondomain.entity.BaseEntity;
-import com.food.commondomain.valueobject.Money;
-import com.food.commondomain.valueobject.OrderId;
+import com.food.common.domain.entity.BaseEntity;
+import com.food.common.domain.valueobject.Money;
+import com.food.common.domain.valueobject.OrderId;
 import com.food.orderdomaincore.valueObject.OrderItemId;
 import lombok.Getter;
 

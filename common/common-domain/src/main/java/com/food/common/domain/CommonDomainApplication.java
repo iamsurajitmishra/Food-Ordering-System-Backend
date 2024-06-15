@@ -1,4 +1,4 @@
-package com.food.commondomain;
+package com.food.common.domain;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

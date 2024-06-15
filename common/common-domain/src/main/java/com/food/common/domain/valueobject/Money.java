@@ -1,4 +1,4 @@
-package com.food.commondomain.valueobject;
+package com.food.common.domain.valueobject;
 
 import lombok.EqualsAndHashCode;
 

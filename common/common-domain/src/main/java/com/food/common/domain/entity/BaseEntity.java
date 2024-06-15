@@ -1,4 +1,4 @@
-package com.food.commondomain.entity;
+package com.food.common.domain.entity;
 
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
